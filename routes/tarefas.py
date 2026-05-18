@@ -59,7 +59,7 @@ def criar_tarefa(tarefa: Tarefa):
     tarefas = ler_tarefas()
 
     nova_tarefa = {
-        "id":  gerar_novo_id(), #(Melhoria: deveria funcionar assim) Cria uma lista dos IDs, pega o maior, soma 1 para criar o próximo
+        "id":  gerar_novo_id(), #Cria uma lista dos IDs, pega o maior, soma 1 para criar o próximo
         "titulo": tarefa.titulo,
         "concluida": False
     }
